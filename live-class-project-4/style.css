@@ -1,0 +1,87 @@
+.navbar-container{
+    display: flex;
+    height: 77px;
+    width: 91vw;
+    position: relative;
+    left: 29px;
+    justify-content: space-between;
+padding: 31px;
+
+padding-top: 23px;
+}
+
+.list-item{
+    list-style: none;
+}
+
+.growlist{
+    
+    position: relative;
+width: 46vw;
+display: flex;
+}
+
+.list{
+    width: 26vw;
+    display: flex;
+    padding-left: 0px;
+    justify-content: space-evenly;
+    letter-spacing: 0.04em;
+    
+    position: relative;
+    left: -286px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.396);
+  }
+.nav-button{
+    width: 142px;
+    height: 43px;
+    border-radius: 1em;
+    color: white;
+    background-color: #5955b3;
+    border: none;
+  }
+
+.banner-container{
+  display: grid;
+
+  grid-gap: 40px 40px;
+  grid-template-columns: 567px 5px auto;
+}
+
+.lg{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+position: relative;
+}
+
+.heading-text{
+    font-family: Poppins;
+margin-top: -336.08px;
+font-size: 62px;
+color: #3c2f60;
+margin-left: 112px;
+margin-top: -187.08px;
+}
+span{
+    color: #5955b3;
+}
+
+.description{
+    width: 325px;
+color: gray;
+font-family: Poppins;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: 0em;
+margin-top: -33px;
+}
+.btn
+{ 
+margin-top: 350px;
+position: absolute;
+}

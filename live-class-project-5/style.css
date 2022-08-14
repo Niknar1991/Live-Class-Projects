@@ -1,0 +1,112 @@
+*{
+    font-family: Montserrat;
+}
+.container{
+    height: 100vh;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+.navbar{
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.logo{
+    flex-grow: 1;
+}
+
+.line{
+    background-color: gray;
+height: 51px;
+width: 3px;
+margin-top: 5px;
+margin-left: 88px;
+}
+
+.grow-list{
+    flex-grow: 10;
+}
+
+.button-small{
+    margin-top: 2px;
+    flex-grow: 2;
+    flex-grow: 2;
+    padding: 4px 20px;
+    color: white;
+
+    background-color: #ba0cc5;
+    border: none;
+    border-radius: 0.5em;
+  }
+
+
+.list-item{
+
+    list-style: none;
+}
+
+.list{
+    display: flex;
+    letter-spacing: 0.082em;
+line-height: 1.3;
+font-size: 17px;
+justify-content: space-evenly;
+width: 661px;
+font-weight: 400;
+gap: 2;
+padding-left: 5px;
+}
+
+.rb{
+width: 247.45px;
+margin-top: 15px;
+}
+.hero{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+.hero-heading{
+    text-align: center;
+font-size: 83px;
+width: 58vw;
+justify-content: center;
+display: flex;
+align-content: center;
+align-items: center;
+align-self: center;
+color: white;
+margin-top: -14.11px;
+
+}
+
+.hero-description{
+    text-align: center;
+    margin-top: 197px;
+    position: absolute;
+    margin-left: 0;
+    display: flex;
+    width: auto;
+    align-self: center;
+    font-size: 23px;
+    color: white;
+  }
+
+  .button-large{
+    width: fit-content;
+align-self: center;
+padding: 11px 36px;
+position: absolute;
+margin-top: 334px;
+color: white;
+background-color: #ba0cc5;
+border: none;
+border-radius: 0.5em;
+
+  }

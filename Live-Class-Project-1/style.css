@@ -1,0 +1,215 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+}
+
+body{
+    width: 100vw;
+   
+}
+.container{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    width: 100vw;
+    margin: 10px;
+}
+
+.navbar-container{
+    display:flex;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.list{
+    width: 27vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: Orbitron;
+    font-size: 22px;
+line-height: 1.7;
+letter-spacing: 0.055em;
+font-weight: 500;
+font-style: normal;
+list-style: none;
+margin-top: 10px;
+
+}
+.list li:hover{
+    font-size: 26px;
+font-weight: 700;
+
+
+.list-item{
+    position: relative;
+}
+
+}
+
+.search-icon{
+    position: relative;
+    top: 17px;
+}
+.list-item::after
+{
+    content:'';
+    height:5px;
+ width: 50px;
+ background-color: rgb(0, 0, 0);
+ color: aqua;
+ display: inline-block;
+ margin-left: -59px;
+ position:absolute;
+ margin-top: 31px; 
+}
+
+
+.button-group{
+    display: flex;
+    justify-content:space-around;
+    width: 20vw;
+    background-color: #ffffff;
+   
+}
+
+.nav-button{
+    font-size: 27px;
+    line-height: 0.5;
+    letter-spacing: 0.019em;
+    font-weight: 100;
+    background-color: white;
+    color: gray;
+    border: 2px solid black;
+    font-family: ;
+    border-radius: 1em;
+    margin-top: 10px;
+    font-style: normal;
+    margin-left: -49px;
+    accent-color: ;
+    width: 12vw;
+    height: 37px;
+    
+}
+
+.nav-button::before{
+    
+}
+.hero-container{
+    display: flex;
+    position: relative;
+    width: 100vw;
+}
+
+.man{
+    display: flex;
+    justify-content: left;
+    width: 35vw;
+    height: 577px;
+    order: -1;
+    margin: 27px 3px;
+    z-index: 1;
+    margin-top: 23px;
+    width: 553px;
+    height: 548px;
+  }
+  
+
+  .square{
+    position: absolute;
+    display: flex;
+    border: 2px solid black;
+    position: absolute;
+    margin-top: 223px;
+    margin-left: 118px;}
+
+  .hero-container-right{
+    display: flex;
+    width: 50vw;   
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+     font-family: Orbitron;
+     letter-spacing: 0.047em;
+     line-height: 1.6;
+     font-size: 19px;
+     font-weight: 400;
+   }
+     .hero-heading{
+   margin-top: 103px;
+   font-weight: 815;
+   line-height: 108px;
+   font-size: 44px;  
+}
+  
+.hero-description{
+font-size: 14px;
+width: 578px;
+font-family: Poppins;
+margin: 58px;
+}
+
+.contact-heading{
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+  
+    margin-left: 98px;
+    line-height: 12px;
+font-family: Poppins;
+margin-top: 106px;
+margin-top: 106px;
+height: 21px;
+width: 289.983px;
+display: flex;
+position: relative;
+padding-right: 1px;
+margin-right: 85px;
+
+}
+
+.button-email ,.button-join{
+    margin-top: 7px;
+    width: 164px;
+    padding: 4px;
+    margin-left: 10px;
+    background-color: #ffffff;
+border-radius: 0.5em;
+color: grey;
+font-family: Orbitron;
+border:2px solid #000000;
+}
+.icons{
+    display: flex;
+    font-size: 72px;
+    line-height: 81px;
+    letter-spacing: 10px;
+    justify-content: space-evenly;
+    margin-left: 34px;
+  }
+
+
+
+/* element {
+    width: 500px;
+    border: 2px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  } */
+
+  .star
+  {
+    display: flex;
+height: fit-content;
+position: absolute;
+width: 80vw;
+flex-direction: row-reverse;
+margin-top: 46px;
+height: 59px;
+  }
+
+
+  @

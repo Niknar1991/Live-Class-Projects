@@ -1,0 +1,153 @@
+*{
+    font-family:Poppins;
+
+}
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    border-top-width: 0px;
+    border-top-style: solid;
+  }
+.nav-items{
+    display: flex;
+  justify-content: space-around;
+  width: 488.333px;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ri{
+    width: 290px;
+}
+.intro-section{
+display: flex;
+height: 87vh;
+}
+
+
+.intro-section{
+display: flex;
+height: 87vh;
+width: 1420.2px;
+justify-content: flex-start;
+margin-left: 40px;
+margin-top: 16px;
+}
+
+h3{
+    font-size: 31px;
+}
+
+h3 img{
+    height: 38px;
+}
+
+h1{
+font-size: 60px;
+font-weight: bold;
+font-style: normal;
+}
+.sub-headlines{
+display: flex;
+flex-direction: column;
+height: 160.9px;
+justify-content: center;
+align-items: flex-start;
+margin-left: 75px;
+font-size: 21px;
+line-height: 0;
+margin-top: 13px;
+margin-bottom: 10px;
+}
+
+.sub-headline{
+
+    margin-bottom: -10.5px;
+}
+
+.sub-headline img{
+    background-color: #fe5e35;
+    border-radius: 1em;
+    margin-top: -3px;
+    
+    padding: 5px;
+    height: 15px;
+}
+
+h5 img{
+    margin-bottom: -5px;
+}
+.text{
+    font-size: 14px;
+opacity: 0.5;
+
+}
+
+.action-btn{
+padding: 10px 38px;
+background-color: #fe5e35;
+color: #ffffff;
+border: none;
+border-radius: 1.5em;
+
+}
+
+.headphone-div :nth-child(3n)
+{
+    margin-top: -218px;
+    margin-right: 68px;
+    height: 488px;
+    margin-top: -570px;
+margin-bottom: 139px;
+height: 512px;
+
+
+}
+
+.discount{
+    position: relative;
+    z-index: 1;
+}
+
+.headphone-div{
+margin-top: 226px;
+height: 275.4px;
+width: 641.2px;}
+
+.discount-content{
+    z-index: 2;
+    position: relative;
+}
+
+/* .headphone-div :nth-child(2n-1){
+margin-top: -13px;
+position: absolute;
+height: 143px;
+} */
+ 
+
+.headphone-div{
+    position: absolute;
+    margin-top:217px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+} 
+
+.left-section{
+    width: 50vw;
+}
+
+.action-btnss{
+
+padding: 10px 38px;
+background-color: #fe5e35;
+color: #ffffff;
+border: none;
+border-radius: 1.5em;
+margin-top: 500px;
+}
